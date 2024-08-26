@@ -5,4 +5,5 @@
 
 [Click Here](https://tryhackme.com/r/room/owasptop10) to go to the TryHackMe room.
 
-![Description](C:\Users\himap\TryHackMe-Walkthroughs\Images\img1.png)
+![Description](./Images/img1.png)
+
