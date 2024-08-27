@@ -7,3 +7,4 @@
 
 ![Description](./Images/img1.png)
 
+[To complete the questions, navigate to -](http://MACHINE_IP/evilshell.php.) insert the Machine IP address in the place of MACHINE_IP.
