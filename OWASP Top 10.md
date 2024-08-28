@@ -1,9 +1,9 @@
-# Owasp top 10 (2017)
+# Owasp top 10 (2021)
 
-**Date**: 26, August, 2024  
+**Date**: 28, August, 2024  
 **Author**: P.Hima Bindu  
 
-[Click Here](https://tryhackme.com/r/room/owasptop10) to go to the TryHackMe room.
+[Click Here](https://tryhackme.com/r/room/owasptop102021) to go to the TryHackMe room.
 
 ![Description](./Images/img1.png)
 
