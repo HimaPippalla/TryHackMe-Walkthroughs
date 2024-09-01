@@ -79,7 +79,7 @@ sqlite> SELECT * FROM users;
 - What is the admin's plaintext password?
   - use the crackstation online tool for cracking the hash
 
-![Description](./Images/img2.png)  
+![Description](./Images/img3.png)  
 
   - Ans - **qwertyuiop**
 ##
