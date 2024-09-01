@@ -27,9 +27,22 @@ Deploy the machine and go to [http://MACHINE_IP](http://MACHINE_IP) - Login with
 
 connect to the web application at http://Machine_IP/.
 
+##
 - What is the name of the mentioned directory?
 
 ```bash
 curl http://10.10.134.171:81/login.php
 ```
-observe the page, you can find this : <!-- Must remember to do something better with the database than store it in /assets... -->
+observe the page, you can find this :  Must remember to do something better with the database than store it in **/assets**...
+
+- Ans - **/assets**
+
+##
+- Navigate to the directory you found in question one. What file stands out as being likely to contain sensitive data? (Navigate to - http://10.10.134.171:81/assets)
+
+![Description](./Images/img1.png)
+
+- Ans - **webapp.db**
+
+##
+- Use the supporting material to access the sensitive data. What is the password hash of the admin user?
