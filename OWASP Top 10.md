@@ -92,11 +92,11 @@ sqlite> SELECT * FROM users;
 ![Description](./Images/img4.png) 
 
 - Ans - **THM{Yzc2YjdkMjE5N2VjMzNhOTE3NjdiMjdl}**
+##
 
 
 
-
-### 3.1 Command Injection
+### 3.1 Command Injection (Task 10)
 
 navigate to http://Machine_IP/ and exploit the cowsay server
 
@@ -140,7 +140,7 @@ navigate to http://Machine_IP/ and exploit the cowsay server
 
 ![Description](./Images/img7.png)
 
-- Ans: **/sbin/nologin
+- Ans: **/sbin/nologin**
 ##
 
 ##
@@ -151,3 +151,40 @@ navigate to http://Machine_IP/ and exploit the cowsay server
 ![Description](./Images/img5.png)
 
 - Ans: **3.16.0**
+##
+
+### 4.Insecure Design (Task 11)
+
+- Navigate to http://MACHINE_IP and get into joseph's account. 
+
+  - Try to reset joseph's password.
+  - Try to answer the security question which validates the user's favirote color.. First TRY with VIBGEYOR(violet,indigo,blue,green,yellow,orange,red) 
+  - At **green** it was true....
+  - get the password and login to the account.
+
+![Description](./Images/img9.png)
+
+![Description](./Images/img10.png)
+
+
+**Flag -** THM{Not_3ven_c4tz_c0uld_sav3_U!}
+
+##
+
+##
+
+### 5.Security Misconfiguration (Task 12)
+
+ - Navigate to http://10.10.146.125:86/console to access the Werkzeug console.
+
+  -  import os; print(os.popen("ls -l").read())
+
+  - ![Description](./Images/img11.png)
+
+  - Modify the code to read the contents of the app.py file, which contains the application's source code. What is the value of the secret_flag variable in the source code?
+
+  - ![Description](./Images/img12.png)
+
+  - **Flag -** THM{Just_a_tiny_misconfiguration}
+
+##  
