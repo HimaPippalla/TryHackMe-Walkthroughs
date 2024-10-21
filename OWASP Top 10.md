@@ -230,12 +230,57 @@ THM{But_1ts_n0t_my_f4ult!}
 
   - What is the flag that you found in darren's account?
 
-  - ![Description](./Images/img14.png)
+    ![Description](./Images/img14.png)
 
   - **Ans** **fe86079416a21a3c99937fea8874b667**
 
   - What is the flag that you found in arthur's account?
 
-  - ![Description](./Images/img15.png)
+   ![Description](./Images/img15.png)
 
   - **Ans** **d9ac0f7db4fda460ac3edeb75d75e16e**
+
+
+
+##
+
+
+
+##
+
+
+### Software Integrity Failures (Task 19)
+
+- What is the SHA-256 hash of https://code.jquery.com/jquery-1.12.4.min.js?
+  
+  - **Ans** **sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=**
+
+
+
+##
+
+
+
+##
+
+
+###  Data Integrity Failures (Task 20)
+
+  ![Description](./Images/img16.png)
+
+- What is the name of the website's cookie containing a JWT token?
+
+  - **Ans** - **jwt-session**
+
+-  Get the session token, decode it and modify it as alg="none" & username = "admin", and then encode it.
+
+- Place the modified token in the place
+![Description](./Images/img17.png)
+
+
+- What is the flag presented to the admin user?
+
+![Description](./Images/img18.png)
+
+  - **Ans** **THM{Dont_take_cookies_from_strangers}**
+
