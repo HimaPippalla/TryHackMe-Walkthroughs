@@ -222,4 +222,20 @@ THM{But_1ts_n0t_my_f4ult!}
 ##
 
 
-## Identification and Authentication Failures - Practical (Task 17)
+### Identification and Authentication Failures - Practical (Task 17)
+
+- Navigate to http://MACHINE_IP:8088 
+
+  - Try to  register " darren" instead, and you'll see that you are now logged in and can see the content present only in darren's account
+
+  - What is the flag that you found in darren's account?
+
+  - ![Description](./Images/img14.png)
+
+  - **Ans** **fe86079416a21a3c99937fea8874b667**
+
+  - What is the flag that you found in arthur's account?
+
+  - ![Description](./Images/img15.png)
+
+  - **Ans** **d9ac0f7db4fda460ac3edeb75d75e16e**
