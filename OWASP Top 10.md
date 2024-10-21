@@ -272,9 +272,7 @@ THM{But_1ts_n0t_my_f4ult!}
 
   - **Ans** - **jwt-session**
 
--  Get the session token, decode it and modify it as alg="none" & username = "admin", and then encode it.
-
-- Place the modified token in the place
+-  Get the session token, decode it and modify it as alg="none" & username = "admin", and then encode it.Place the modified token in the place
 ![Description](./Images/img17.png)
 
 
